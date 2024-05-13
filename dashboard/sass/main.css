@@ -765,6 +765,7 @@ input::placeholder {
   padding: 1rem;
   background-color: #fff;
   border-radius: 10px;
+  min-height: 90vh;
 }
 
 .main-wrapper .main-content .breadcrumb-title {
@@ -1944,8 +1945,8 @@ tr {
   border-width: 1px;
   border-style: solid;
   border-radius: 15px;
-  height: 55px;
-  width: 55px;
+  height: 50px;
+  width: 50px;
 
   background: #ffffff
 }
