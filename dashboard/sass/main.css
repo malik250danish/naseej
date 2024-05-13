@@ -324,7 +324,7 @@ input::placeholder {
 
 .top-header .navbar .dropdown-menu {
   border-radius: 15px !important;
-  background-color: #F8EEEE !important;
+  background-color: #F3f3f3 !important;
   border: 0;
   animation: 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s normal forwards 1 animdropdown;
 }
@@ -352,6 +352,7 @@ input::placeholder {
   border: 1px solid #fff;
   background-color: #fff;
   transition: all 0.3s;
+  border-radius: 10px;
 
 }
 
@@ -1795,9 +1796,6 @@ td .oCard {
 
 
 
-.fsele {
-  border-radius: 0;
-}
 
 table td {
   text-align: start;
@@ -1805,7 +1803,7 @@ table td {
 
 .borderCustom {
   border: 1px solid #fff;
-  border-radius: 13px;
+  border-radius: 15px;
   padding: 0 !important;
 }
 
@@ -1858,19 +1856,30 @@ tr {
 
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link {
-  /* border-radius: 13px;
-  color: #000;
-  background-color: #fff;
-  border: 0px;
-  margin-inline: .5rem; */
+  border-color: #ffffff;
+  border-width: 1.5px;
+  border-style: solid;
+  border-radius: 15px;
+
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.02));
+
+  background: #f6f6f6
 }
 
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-  border: 0;
-  border-top: 1.5px solid #000;
-  border-radius: 0;
+  border-color: #ffffff;
+  border-width: 1.5px;
+  border-style: solid;
+  border-radius: 15px;
 
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.02));
+
+  background: #e2d893;
+  background: linear-gradient(180deg,
+      #e2d893 0.00%,
+      #af925a 100.00%);
+  color: #fff;
 
 }
 
@@ -1900,9 +1909,309 @@ tr {
   padding-inline: 0.5rem;
 }
 
+.customSelect {
+  border-color: #ffffff !important;
+  border-width: 1.5px !important;
+  border-style: solid !important;
+  border-radius: 15px !important;
+
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.02)) !important;
+
+  background: #f6f6f6 !important;
+}
+
 .elep {
   border-radius: 0px;
   cursor: pointer;
   width: fit-content;
   background: #f2f2f2
+}
+
+.customBox {
+  width: 19%;
+  border-color: #ffffff;
+  border-width: 1.5px;
+  border-style: solid;
+  border-radius: 15px;
+
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.02));
+
+  background: #f6f6f6
+}
+
+.imgIcon {
+  border-color: #af925a;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 15px;
+  height: 55px;
+  width: 55px;
+
+  background: #ffffff
+}
+
+.imgIcon img {
+
+  object-fit: contain;
+}
+
+.fss1 {
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 36px;
+  font-style: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.fss2 {
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 17px;
+  font-style: normal;
+  text-align: left;
+  color: #656565;
+}
+
+.orderCard {
+  border-color: #ffffff;
+  border-width: 1.5px;
+  border-style: solid;
+  border-radius: 15px;
+
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.02));
+
+  background: #f6f6f6
+}
+
+.f1 {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.f2 {
+
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  text-align: left;
+  color: #3d3d3d;
+}
+
+.f3 {
+  font-family: "Montserrat";
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  text-align: left;
+  color: #3d3d3d;
+}
+
+.f4 {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+
+  font-style: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.f5 {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  font-style: normal;
+  text-align: left;
+  color: #af925a;
+}
+
+.clothImage {
+  height: 138px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.setBtn {
+
+  border-radius: 40px;
+
+
+  background: #e2d893;
+  background: linear-gradient(180deg,
+      #e2d893 0.00%,
+      #af925a 100.00%);
+
+  color: #fff;
+  border: transparent;
+}
+
+.sImg {
+  width: 100%;
+  height: 60px;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 15px;
+  object-fit: cover;
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.02));
+
+  background: rgba(246, 246, 246, 0)
+}
+
+.logoImage {
+  position: absolute;
+  top: 15px;
+  right: 2px;
+  object-fit: cover;
+}
+
+.oNum {
+  width: 15px;
+  height: 15px;
+
+  border-color: #3d3d3d;
+  border-width: 0.5px;
+  border-style: solid;
+  border-radius: 5px;
+
+
+  background: #ffffff;
+  font-family: "Montserrat";
+  font-size: 7px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.bordeB {
+  border-bottom: 1px solid #fff;
+}
+
+.table tr td {
+  background: #f6f6f6;
+  border-bottom: 1px solid #fff !important;
+
+}
+
+.table tr {
+  background: #f6f6f6;
+  border-bottom: 1px solid #fff !important;
+
+}
+
+.tableImag {
+  height: 30px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.action {
+  width: 22px;
+  height: 22px;
+
+  border-color: #3d3d3d;
+  border-width: 0.5px;
+  border-style: solid;
+  border-radius: 6px;
+
+
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formInput {
+  border-color: #ffffff;
+  border-width: 1.5px;
+  border-style: solid;
+  border-radius: 15px;
+
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.02));
+
+  background: #f6f6f6;
+  padding-block: 0.8rem;
+}
+
+.btnUpload {
+  border-color: #ffffff;
+  border-width: 1.5px;
+  border-style: solid;
+  border-radius: 15px;
+
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.02));
+
+  background: #f6f6f6;
+  background: linear-gradient(180deg,
+      #f6f6f6 0.00%,
+      #eeeeee 100.00%) !important;
+  padding-block: 0.8rem;
+}
+
+.btna {
+  border-color: #3d3d3d;
+  border-width: 0.5px;
+  border-style: solid;
+  border-radius: 6px;
+
+
+  background: #ffffff;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profmage {
+  width: 180px;
+  height: 180px;
+
+  border-color: #ffffff;
+  border-width: 1.5px;
+  border-style: solid;
+  border-radius: 15px;
+}
+
+.fcn1 {
+  border-color: #ffffff;
+  border-width: 1.5px;
+  border-style: solid;
+  border-radius: 15px;
+
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.02));
+
+  background: #ffffff
+}
+
+.modal-content {
+  background-color: #f6f6f6;
+}
+
+@media(max-width:1092px) {
+  .customBox {
+    width: 49%;
+  }
+}
+
+@media(max-width:768px) {
+  .customBox {
+    width: 99%;
+  }
 }
