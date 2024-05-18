@@ -513,15 +513,28 @@ input::placeholder {
 
 .sidebar-wrapper .sidebar-nav .metismenu a:active {
 
-  background: #03C9D7;
+  text-decoration: none;
+
+  border-radius: 30px;
+
+
+  background: #e2d893;
+  background: linear-gradient(180deg,
+      #e2d893 0.00%,
+      #af925a 100.00%);
   color: #fff;
 }
 
 .sidebar-wrapper .sidebar-nav .metismenu a:focus {
-
   text-decoration: none;
 
-  background: #03C9D7;
+  border-radius: 30px;
+
+
+  background: #e2d893;
+  background: linear-gradient(180deg,
+      #e2d893 0.00%,
+      #af925a 100.00%);
   color: #fff;
 }
 
@@ -1816,14 +1829,14 @@ tr td:last-child {
   border-bottom-right-radius: 6px;
 }
 
-.tbody,
+/* .tbody,
 td,
 tfoot,
 th,
 thead,
 tr {
   border-style: hidden !important;
-}
+} */
 
 .eye {
   position: absolute;

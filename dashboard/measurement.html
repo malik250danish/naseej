@@ -28,6 +28,32 @@
   <link href="sass/semi-dark.css" rel="stylesheet">
   <link href="sass/bordered-theme.css" rel="stylesheet">
   <link href="sass/responsive.css" rel="stylesheet">
+  <style>
+        .custom-table {
+        width: 100%;
+        border: 1px solid #000;
+        direction: rtl;
+      }
+      .custom-table th,
+      .custom-table td {
+        border: 1px solid #000;
+        padding: 5px;
+        text-align: center;
+      }
+      .custom-table tr {
+        border-style: solid !important;
+       
+      }
+      .table-header {
+        background-color: #f2f2f2;
+      }
+      .table-section {
+        margin-bottom: 20px;
+      }
+      .ltr-input {
+        direction: ltr;
+      }
+  </style>
 
 </head>
 
@@ -297,7 +323,7 @@
         </div>
        
       </div>
-      <form class="row my-2">
+      <!-- <form class="row my-2">
         <div class="col-md-6 my-2">
             <label for="" class="clabel">Chest circumference</label>
             <input class="form-control formInput " type="text" name="" id="" placeholder="1/18">
@@ -333,7 +359,169 @@
         <div class="col-md-12 my-2 d-flex justify-content-center">
             <button class="btn setBtn px-5 py-3">Save</button>
          </div>
-      </form>
+      </form> -->
+
+      <div class="table-section">
+        <table class="custom-table">
+          <tr class="table-header">
+            <th>رقم</th>
+            <th>الاسم</th>
+            <th>عدد</th>
+            <th>طول</th>
+            <th>كتف</th>
+            <th>كم بزمه</th>
+            <th>كم</th>
+            <th>صدر</th>
+            <th>قوله</th>
+            <th>السعر</th>
+          </tr>
+          <tr>
+            <td rowspan="4" style="vertical-align: middle">0804</td>
+            <td>
+              <input type="text" class="form-control ltr-input" name="name" />
+            </td>
+            <td>
+              <input
+                type="number"
+                class="form-control ltr-input"
+                name="number"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                class="form-control ltr-input"
+                name="length"
+              />
+              <input
+                type="number"
+                class="form-control ltr-input mt-1"
+                name="length"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                class="form-control ltr-input"
+                name="shoulder"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                class="form-control ltr-input"
+                name="sleeve"
+              />
+              <input
+                type="number"
+                class="form-control ltr-input mt-1"
+                name="sleeve"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                class="form-control ltr-input"
+                name="sleeve"
+              />
+              <input
+                type="number"
+                class="form-control ltr-input mt-1"
+                name="sleeve"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                class="form-control ltr-input"
+                name="chest"
+              />
+              <input
+                type="number"
+                class="form-control ltr-input mt-1"
+                name="chest"
+              />
+            </td>
+            <td>
+              <input type="text" class="form-control ltr-input" name="phrase" />
+            </td>
+            <td>
+              <input
+                type="number"
+                class="form-control ltr-input"
+                name="price"
+              />
+            </td>
+          </tr>
+          <tr class="table-header">
+            <th colspan="8"></th>
+            <th>الباقي</th>
+          </tr>
+          <tr>
+            <td colspan="8"></td>
+            <td>
+              <input
+                type="number"
+                class="form-control ltr-input"
+                name="balance"
+              />
+            </td>
+          </tr>
+          <tr class="table-header">
+            <th colspan="8"></th>
+            <th>الدفع</th>
+          </tr>
+          <tr>
+            <td colspan="9"></td>
+            <td>
+              <input
+                type="number"
+                class="form-control ltr-input"
+                name="payment"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="8">
+              <table class="custom-table">
+                <tr>
+                  <th>ادكمه</th>
+                  <th>سعودي مخفي</th>
+                  <th>اماراتي</th>
+                  <th>تطريز</th>
+                  <th> طربوش متحرك</th>
+                  <th>رقم جيب</th>
+                </tr>
+                <tr>
+                  <th>لاادكمه</th>
+                  <td>بخيه اولب</td>
+                  <td>بحريني</td>
+                  <td>جيب كيس</td>
+                  <td>سحاب</td>
+                  <td>جيب سينة</td>
+                </tr>
+                <tr>
+                  <th>يقه دار</th>
+                  <td>سادة كويتي</td>
+                  <td>شد</td>
+                  <td>جيب كويتي</td>
+                  <td>*****</td>
+                  <td>جلو</td>
+                </tr>
+                <tr>
+                  <th>عبادي</th>
+                  <td>مخفي كويتي</td>
+                  <td>بات دار</td>
+                  <td>ابره</td>
+                  <td>TT</td>
+                  <td>بائين</td>
+                </tr>
+             
+              </table>
+            </td>
+          </tr>
+        </table>
+      </div>
 
    
   </main>
